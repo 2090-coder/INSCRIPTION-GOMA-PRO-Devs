@@ -29,22 +29,17 @@ Site officiel d'inscription à la 6e promotion de GOMA PRO Devs.
 - `plus-infos.html` — informations complémentaires et bouton vers la page externe
 - `admin.html` — tableau de bord local + export CSV
 
-## Photos à ajouter
+## Photos
 
-Le site attend les fichiers suivants. Tu peux les déposer toi-même dans GitHub :
+Les photos fournies sont conservées dans le dépôt et seront utilisées depuis `assets/images` :
 
-- `assets/images/logo.png` — logo GOMA PRO Devs
-- `assets/images/formateur.jpg` — photo de Salomon BENGZ
-- `assets/images/anciens/ancien-01.jpg`
-- `assets/images/anciens/ancien-02.jpg`
-- `assets/images/certificats/certificat-01.jpg`
-- `assets/images/certificats/certificat-02.jpg`
-
-Tu peux ajouter d'autres photos en adaptant `anciens.html`.
+- `assets/images/logo.png` — copie du fichier **GOMA PRO Devs.jpg**
+- `assets/images/formateur.jpg` — copie du fichier **bngz_pic.png**
+- les autres photos `image-*.jpg` — galerie/certificats disponibles
 
 ## E-mail et WhatsApp
 
-Le formulaire utilise FormSubmit pour transmettre les inscriptions à **shukurusalomon228@gmail.com**. Le bouton de confirmation ouvre WhatsApp avec un message prérempli vers **+234 902813183**.
+Le formulaire utilise FormSubmit pour transmettre les inscriptions à **shukurusalomon228@gmail.com**. Le bouton de confirmation ouvre WhatsApp avec un message prérempli vers **+243 975731096**.
 
 > Pour un envoi WhatsApp totalement automatique sans action du candidat, il faut connecter l'API WhatsApp Business à un backend sécurisé. Le site statique ne doit jamais contenir un token API.
 
@@ -52,7 +47,7 @@ Le formulaire utilise FormSubmit pour transmettre les inscriptions à **shukurus
 
 Dans GitHub : **Settings → Pages → Build and deployment → Source: GitHub Actions**.
 
-Le workflow `.github/workflows/pages.yml` publie ensuite automatiquement le site après chaque mise à jour de `main`.
+Le workflow `.github/workflows/pages.yml` publie automatiquement le site après chaque mise à jour de `main`.
 
 ## Administration
 
